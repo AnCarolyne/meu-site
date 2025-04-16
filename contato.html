@@ -2,49 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width='device-width', initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="estilo.css">
-
-   
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav class="menu">
-
-    <ul class="menu-ul">
-
-        <li class="menu-lista"><a href="incio">inicio</a></li>
-        <li class="menu-lista"> <a href="sobre">sobre</a></li>
-        <li class="menu-lista"> <a href="serviços">serviços</a></li>
-        <li class="menu-lista"> <a href="contato">contato</a></li>
-
-    </ul>
-
-</nav>
-<div class="caixa">
-    <div class="form-wrapper">
-        <h2>💌 Envie uma Mensagem</h2>
-        <form action="#" method="POST">
-          <div class="form-group">
-            <label for="nome">Nome</label>
-            <input type="text" id="nome" name="nome" required>
-          </div>
+    <header>
+        <h1>📬 Fale Comigo</h1>
+        <nav>
+          <a href="index.html">Início</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </header>
     
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required>
-          </div>
+      <main>
+        <form class="contato">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
     
-          <div class="form-group">
-            <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-          </div>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
     
           <button type="submit">Enviar</button>
         </form>
-      </div>
-    </div>
+      </main>
+    
+      <footer>
+        <p>&copy; 2025 - Contato do artista</p>
+      </footer>
 </body>
 </html>
