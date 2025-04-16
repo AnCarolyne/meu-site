@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f3f0ff; /* roxinho claro de fundo */
+    color: #2c2c54; /* roxo escuro para texto */
+    line-height: 1.6;
+  }
+  
+  header {
+    background: linear-gradient(90deg, #4b6cb7, #182848); /* degrade azul escuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #dcdcff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #a29bfe; /* roxo claro no hover */
+  }
+  
+  main {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #4b6cb7; /* azul do header */
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .galeria img {
+    border: 3px solid #a29bfe; /* roxinho */
+    border-radius: 10px;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria img:hover {
+    transform: scale(1.05);
+  }
+  
+  .contato {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contato input,
+  .contato textarea {
+    padding: 10px;
+    border: 1px solid #4b6cb7;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #ffffff;
+  }
+  
+  .contato button {
+    background-color: #6c5ce7; /* roxo vibrante */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .contato button:hover {
+    background-color: #341f97; /* roxo escuro */
+  }
